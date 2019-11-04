@@ -28,7 +28,7 @@
 
     In this case, **it works just fine**.
 
-- The issue only occurs when `webpack` config is not at its default location. Then I have to add the following content to my `.eslintrc.json`:
+- The issue only occurs when `webpack` config is not at its default location. I've copied `webpack.config.js` to `webpack.dev.config.js`. Then I had to add the following content to my `.eslintrc.json`:
             
     ```json
     "settings": {
@@ -40,7 +40,7 @@
     }
     ```
 
-    Then I get the following error:
+    When runnign `eslint`, I get the following error:
 
     ```
     Error resolving webpackConfig Error: Cannot find module '<path>/webpack-resolver-issue/node_modules/date-fns/webpack.dev.config.js'
