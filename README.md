@@ -1,6 +1,6 @@
 # Webpack Resolver Issue
 
-`eslint-plugin-import` webpack resolver issue details. Please refer to the project [issue](https://github.com/benmosher/eslint-plugin-import/issues/1511) for more details.
+`eslint-plugin-import` webpack resolver issue details. Please refer to the project [issue](https://github.com/benmosher/eslint-plugin-import/issues/1511) to understand the context.
 
 ## Steps to reproduce
 
